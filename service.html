@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to the University Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:ital@1&family=Roboto+Slab:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="subheader">
+      <nav>
+        <a href="index.html"><img src="images/sharp-logo.png" alt="logo" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="material-icons" onclick="hideMenu()">clear</i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="service.html">SERVICES</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Our Services</h1>
+    </section>
+    <!-- -----------Courses Content-------------- -->
+    <section class="courses">
+      <h1>Services we Offer</h1>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+        consequuntur facere maiores tempora minima. Suscipit aliquid veniam
+        excepturi architecto fugiat! Quia dolore assumenda veritatis facere,
+        fuga dolorem eveniet recusandae aliquid?
+      </p>
+      <div class="row">
+        <div class="course-column">
+          <h3>Air-Conditioning</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis ab
+            temporibus facere odit necessitatibus, sapiente numquam neque
+            maiores sint at? Quis vero quam repellendus! A, ex! Quam sit soluta
+            officia?
+          </p>
+        </div>
+        <div class="course-column">
+          <h3>CCTV Cameras</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis ab
+            temporibus facere odit necessitatibus, sapiente numquam neque
+            maiores sint at? Quis vero quam repellendus! A, ex! Quam sit soluta
+            officia?
+          </p>
+        </div>
+        <div class="course-column">
+          <h3>Website Designing</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis ab
+            temporibus facere odit necessitatibus, sapiente numquam neque
+            maiores sint at? Quis vero quam repellendus! A, ex! Quam sit soluta
+            officia?
+          </p>
+        </div>
+      </div>
+    </section>
+<!-- ------Facilities------- -->
+<section class="facilities">
+  <h1>Our Services</h1>
+  <p>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et sequi ad
+    iusto molestiae, deserunt labore assumenda quibusdam tempora distinctio
+    excepturi, voluptatum esse facilis? Nemo, aliquid qui. Iusto quasi illo
+    earum.
+  </p>
+  <div class="row">
+    <div class="facilities-col">
+      <img src="photo/cctv1.jpg" alt="" />
+      <h3>World Class CCTV Camera Installation</h3>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti,
+        delectus.
+      </p>
+    </div>
+    <div class="facilities-col">
+      <img src="photo/ac1.jpg" alt="" />
+      <h3>All types of AC/VRF Installation</h3>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti,
+        delectus.
+      </p>
+    </div>
+    <div class="facilities-col">
+      <img src="photo/webdev.jpg" alt="" />
+      <h3>Website Development & Design for Your Business</h3>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti,
+        delectus.
+      </p>
+    </div>
+  </div>
+</section>
+    <!-- --------------Footer--------------- -->
+    <footer>
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia ipsa
+        quibusdam eveniet totam exercitationem, dolore quae iste saepe magni?
+        <br />
+        Itaque harum voluptatum sunt aliquam a. Quibusdam laudantium sequi esse
+        nesciunt!
+      </p>
+      <div class="icons">
+        <span class="fa fa-facebook"></span>
+        <span class="fa fa-twitter"></span>
+        <span class="fa fa-instagram"></span>
+        <span class="fa fa-linkedin"></span>
+      </div>
+      <p>Copyright &copy Murtaza Hassan</p>
+    </footer>
+    <!-- Javascript for Toggle Menu -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

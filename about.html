@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to the University Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:ital@1&family=Roboto+Slab:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="subheader">
+      <nav>
+        <a href="index.html"><img src="images/sharp-logo.png" alt="logo" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="material-icons" onclick="hideMenu()">clear</i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="service.html">SERVICES</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>About Us</h1>
+    </section>
+    <!-- ------------AboutUs Content-------------- -->
+    <section class="about-us">
+      <div class="row">
+        <div class="about-col">
+          <h1>We are the best Electromechanical service providers in the Emirates</h1>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Repellendus repellat veniam officiis deleniti, adipisci laudantium
+            nemo asperiores quasi unde blanditiis magni iusto voluptatem
+            accusantium itaque corrupti harum ut, fugiat laborum exercitationem
+            est commodi eum. Dolor.
+          </p>
+          <a href="" class="hero-btn red-btn">EXPOLRE NOW</a>
+        </div>
+        <div class="about-col">
+          <img src="photo/about.jpg" alt="">
+        </div>
+      </div>
+    </section>
+
+    <!-- --------------Footer--------------- -->
+    <footer>
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia ipsa
+        quibusdam eveniet totam exercitationem, dolore quae iste saepe magni?
+        <br />
+        Itaque harum voluptatum sunt aliquam a. Quibusdam laudantium sequi esse
+        nesciunt!
+      </p>
+      <div class="icons">
+        <span class="fa fa-facebook"></span>
+        <span class="fa fa-twitter"></span>
+        <span class="fa fa-instagram"></span>
+        <span class="fa fa-linkedin"></span>
+      </div>
+      <p>Copyright &copy Murtaza Hassan</p>
+    </footer>
+    <!-- Javascript for Toggle Menu -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
